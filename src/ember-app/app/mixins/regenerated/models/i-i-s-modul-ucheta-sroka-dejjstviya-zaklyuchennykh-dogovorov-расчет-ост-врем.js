@@ -59,7 +59,14 @@ export let defineProjections = function (modelClass) {
       едВремени: attr('Единица времени', { index: 4 })
     }, { index: 1, displayMemberPath: 'номер' }),
     доступно: attr('Доступно', { index: 5 }),
-    использовано: attr('Использовано', { index: 6 })
+    использовано: attr('Использовано', { index: 6 }),
+    оказУслуг: hasMany('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-оказ-услуг', 'Оказание услуг', {
+      дата: attr('Дата', { index: 0 }),
+      услуги: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги', 'Наименование услуги', {
+        затрВрем: attr('Затраченное время', { index: 2 }),
+        едВремени: attr('Единица времени', { index: 3 })
+      }, { index: 1, displayMemberPath: 'наименование' })
+    })
   });
 
   modelClass.defineProjection('РасчетОстВремL', 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем', {

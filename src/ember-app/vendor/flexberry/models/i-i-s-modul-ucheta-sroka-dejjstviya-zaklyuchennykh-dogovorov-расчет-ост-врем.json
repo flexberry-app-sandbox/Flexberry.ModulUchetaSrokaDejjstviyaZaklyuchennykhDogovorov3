@@ -109,7 +109,15 @@
           "inverse": null
         }
       ],
-      "hasMany": []
+      "hasMany": [
+        {
+          "projectionName": "ОказУслугE",
+          "caption": "Оказание услуг",
+          "name": "оказУслуг",
+          "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-оказ-услуг",
+          "inverse": null
+        }
+      ]
     },
     {
       "name": "РасчетОстВремL",

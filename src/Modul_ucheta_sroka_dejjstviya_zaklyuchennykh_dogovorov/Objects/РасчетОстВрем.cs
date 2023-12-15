@@ -37,6 +37,8 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
             "Договор.ЕдВремени as \'Единица времени\'",
             "Доступно as \'Доступно\'",
             "Использовано as \'Использовано\'"})]
+    [AssociatedDetailViewAttribute("РасчетОстВремE", "ОказУслуг", "ОказУслугE", true, "", "Оказание услуг", true, new string[] {
+            ""})]
     [MasterViewDefineAttribute("РасчетОстВремE", "Договор", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
     [View("РасчетОстВремL", new string[] {
             "Дата as \'Дата\'",
@@ -233,7 +235,6 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (РасчетОстВрем.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (РасчетОстВрем.Отправить method implementation)
         }

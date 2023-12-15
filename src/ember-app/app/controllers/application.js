@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'archive',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l.title'),
-            icon: 'calendar',
+            icon: 'book',
             children: null
           }]
         }, {
@@ -46,12 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l',
             caption: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l.title'),
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l.title'),
-            icon: 'chart line',
+            icon: 'address card',
             children: null
           }]
         }, {
@@ -63,7 +64,7 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l.title'),
-            icon: 'paperclip',
+            icon: 'tasks',
             children: null
           }]
         }
