@@ -29,7 +29,7 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
     [AutoAltered()]
     [Caption("Расчет времени")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("РасчетОстВремE", new string[] {
+    [View("РасчетВремениE", new string[] {
             "Дата as \'Дата\'",
             "Договор as \'Номер договора\'",
             "Договор.Статус as \'Статус\'",
@@ -37,10 +37,10 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
             "Договор.ЕдВремени as \'Единица времени\'",
             "Доступно as \'Доступно\'",
             "Использовано as \'Использовано\'"})]
-    [AssociatedDetailViewAttribute("РасчетОстВремE", "ОказУслуг", "ОказУслугE", true, "", "Оказание услуг", true, new string[] {
+    [AssociatedDetailViewAttribute("РасчетВремениE", "ОказУслуг", "ОказУслугE", true, "", "Оказание услуг", true, new string[] {
             ""})]
-    [MasterViewDefineAttribute("РасчетОстВремE", "Договор", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
-    [View("РасчетОстВремL", new string[] {
+    [MasterViewDefineAttribute("РасчетВремениE", "Договор", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Номер")]
+    [View("РасчетВремениL", new string[] {
             "Дата as \'Дата\'",
             "Договор.Номер as \'Номер договора\'",
             "Договор.Статус as \'Статус\'",
@@ -246,24 +246,24 @@ namespace IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov
         {
             
             /// <summary>
-            /// "РасчетОстВремE" view.
+            /// "РасчетВремениE" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View РасчетОстВремE
+            public static ICSSoft.STORMNET.View РасчетВремениE
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("РасчетОстВремE", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.РасчетОстВрем));
+                    return ICSSoft.STORMNET.Information.GetView("РасчетВремениE", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.РасчетОстВрем));
                 }
             }
             
             /// <summary>
-            /// "РасчетОстВремL" view.
+            /// "РасчетВремениL" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View РасчетОстВремL
+            public static ICSSoft.STORMNET.View РасчетВремениL
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("РасчетОстВремL", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.РасчетОстВрем));
+                    return ICSSoft.STORMNET.Information.GetView("РасчетВремениL", typeof(IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov.РасчетОстВрем));
                 }
             }
         }

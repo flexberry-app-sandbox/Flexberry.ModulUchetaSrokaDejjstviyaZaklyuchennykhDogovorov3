@@ -34,7 +34,7 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочник.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-клиент-l.title'),
-            icon: 'book',
+            icon: 'list',
             children: null
           }]
         }, {
@@ -46,13 +46,12 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l',
             caption: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-договор-l.title'),
-            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.документ.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-расчет-ост-врем-l.title'),
-            icon: 'address card',
+            icon: 'suitcase',
             children: null
           }]
         }, {
@@ -64,7 +63,7 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-услуги-l.title'),
-            icon: 'tasks',
+            icon: 'chart bar',
             children: null
           }]
         }
